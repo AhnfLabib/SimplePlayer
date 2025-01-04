@@ -1,3 +1,24 @@
+# SimplePlayer - iOS Music Player App
+
+## Description
+SimplePlayer is a minimalist iOS music player application built with Swift. It provides a clean, user-friendly interface for playing music with basic playback controls.
+
+## Features
+- 🎵 Play/Pause functionality
+- ⏭️ Skip to next track
+- 📱 Clean and intuitive user interface
+- 🔄 Automatic playlist looping
+- 📊 Real-time display of current song and artist information
+
+## Technologies Used
+- Swift
+- UIKit
+- AVFoundation
+- Interface Builder / Storyboard
+- Auto Layout
+
+## Installation
+1. Clone this repository
 2. Open `iOS101-PreWork.xcodeproj` in Xcode
 3. Add your MP3 files to the project:
    - Rename them as `song1.mp3`, `song2.mp3`, and `song3.mp3`
@@ -28,11 +49,8 @@
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Author
-[Your Name]
+Ahnaf Labib
 
 ## Acknowledgments
 - This project was created as part of the iOS 101 Pre-work

@@ -6,9 +6,7 @@ class PlayerManager {
     
     private var player: AVAudioPlayer?
     private var songs: [Song] = [
-        Song(title: "Burden", artist: "Opeth", filename: "song1"),
-        Song(title: "December er Shohore", artist: "Solo Artist", filename: "song2"),
-        Song(title: "Shajo Tumi", artist: "Conclusion", filename: "song3")
+        Song(title: "Test Song", artist: "Test Artist", filename: "song1")
     ]
     
     private var currentSongIndex = 0
@@ -52,5 +50,9 @@ class PlayerManager {
     
     func setup() {
         loadCurrentSong()
+    }
+    
+    var currentPlayer: AVAudioPlayer? {
+        return player
     }
 } 
